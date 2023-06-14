@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html,body {
+	margin: 0;
+	padding: 0;
+	background: #F5F1EE;
+}
+
+button,input {
+	outline: none;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1380px;
+	margin: 0 auto;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: normal;
+	font-weight: 400;
+}
+
+/* header */
+
+.header {
+
+}
+
+.header-top {
+	background: #fff;
+}
+
+.header-top__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 0;
+}
+
+.header-menu {
+
+}
+
+.menu-items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12px;
+}
+
+.menu-items .menu-item {
+
+}
+
+.menu-items .menu-item .menu-link {
+	display: block;
+	padding: 0 12px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(46, 47, 56, 0.7);
+}
+
+.menu-items .menu-item .menu-link:hover {
+	color: black;
+}
+
+.menu-items .menu-item .menu-link.active {
+	color: black;
+}
+
+.header-btn button {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	padding: 21px 69px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	background: #306BEB;
+	border-radius: 6px;
+	line-height: 18px;
+}
+
+.header-middle {
+	background: #fff;
+}
+
+.header-middle__wrap {
+	padding: 22px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-logo {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-logo__text {
+	display: flex;
+	flex-direction: column;
+}
+
+.company-name {
+	font-weight: 800;
+	font-size: 40px;
+	color: #2E2F38;
+	text-transform: uppercase;
+}
+
+.company-desc {
+	font-size: 23px;
+	color: #2E2F38;
+	line-height: 30px;
+}
+
+.header-info {
+	display: flex;
+	align-items: center;
+}
+
+.header-tel {
+	margin-right: 24px;
+}
+
+.tel-items {
+	display: flex;
+	flex-direction: column;
+}
+
+.tel-items .tel-item {
+
+}
+
+.tel-items .tel-item .tel-link {
+	display: inline-block;
+	color: #2E2F38;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.header-version {
+	border: 1px solid #F5ECE0;
+	border-radius: 6px;
+	display: flex;
+}
+
+.version-btn {
+	display: block;
+	padding: 12px 16px;
+	border-radius: 6px;
+}
+
+.version-btn.active {
+	background: #F5ECE0;
+}
+
+/* header */
